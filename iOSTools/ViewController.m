@@ -2,11 +2,12 @@
 //  ViewController.m
 //  iOSTools
 //
-//  Created by 张跃曦 on 2018/1/11.
-//  Copyright © 2018年 张跃曦. All rights reserved.
+//  Created by Yuexiz on 2018/1/11.
+//  Copyright © 2018年 Yuexiz. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "EffectView.h"
 
 @interface ViewController ()
 
@@ -14,11 +15,17 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (void)loadView {
+
+    self.view = [[UINib nibWithNibName:@"EffectView" bundle:[NSBundle mainBundle]] instantiateWithOwner:nil options:nil].firstObject;
 }
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"测试测试哦";
+    NSLog(@"%@", NSStringFromClass(self.class));
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

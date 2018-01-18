@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  EffectView.h
 //  iOSTools
 //
 //  Created by Yuexiz on 2018/1/11.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface EffectView : UIView
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (weak, nonatomic) IBOutlet UILabel *tempLabel;
 
 @end
-

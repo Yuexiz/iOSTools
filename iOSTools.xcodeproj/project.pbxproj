@@ -13,6 +13,18 @@
 		1C13278F20073350001C77F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C13278E20073350001C77F2 /* Assets.xcassets */; };
 		1C13279220073350001C77F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C13279020073350001C77F2 /* LaunchScreen.storyboard */; };
 		1C13279520073350001C77F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13279420073350001C77F2 /* main.m */; };
+		1C1327A0200733C4001C77F2 /* UIView+JFCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13279E200733C3001C77F2 /* UIView+JFCornerRadius.m */; };
+		1C1327A320073417001C77F2 /* EffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1327A220073417001C77F2 /* EffectView.m */; };
+		1C1327A520073428001C77F2 /* EffectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1327A420073428001C77F2 /* EffectView.xib */; };
+		1C92463C200EE61A0049C9D3 /* YXMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92463B200EE61A0049C9D3 /* YXMainTableViewController.m */; };
+		1C924640200EE6740049C9D3 /* YXTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92463F200EE6740049C9D3 /* YXTableView.m */; };
+		1C924644200EEFD20049C9D3 /* YXTabScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C924643200EEFD20049C9D3 /* YXTabScrollView.m */; };
+		1C924647200EF3720049C9D3 /* YXTabScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C924646200EF3720049C9D3 /* YXTabScrollViewController.m */; };
+		1C92464A200EFA1C0049C9D3 /* TempSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C924649200EFA1C0049C9D3 /* TempSegmentView.m */; };
+		1C92464D200EFAFE0049C9D3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92464C200EFAFE0049C9D3 /* MainViewController.m */; };
+		1C924651200F17160049C9D3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C924650200F17160049C9D3 /* FirstViewController.m */; };
+		1C924654200F17210049C9D3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C924653200F17210049C9D3 /* SecondViewController.m */; };
+		1C924657200F172D0049C9D3 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C924656200F172D0049C9D3 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,29 @@
 		1C13279120073350001C77F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C13279320073350001C77F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C13279420073350001C77F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C13279E200733C3001C77F2 /* UIView+JFCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JFCornerRadius.m"; sourceTree = "<group>"; };
+		1C13279F200733C4001C77F2 /* UIView+JFCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JFCornerRadius.h"; sourceTree = "<group>"; };
+		1C1327A120073417001C77F2 /* EffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectView.h; sourceTree = "<group>"; };
+		1C1327A220073417001C77F2 /* EffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectView.m; sourceTree = "<group>"; };
+		1C1327A420073428001C77F2 /* EffectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EffectView.xib; sourceTree = "<group>"; };
+		1C92463A200EE61A0049C9D3 /* YXMainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXMainTableViewController.h; sourceTree = "<group>"; };
+		1C92463B200EE61A0049C9D3 /* YXMainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXMainTableViewController.m; sourceTree = "<group>"; };
+		1C92463E200EE6740049C9D3 /* YXTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXTableView.h; sourceTree = "<group>"; };
+		1C92463F200EE6740049C9D3 /* YXTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXTableView.m; sourceTree = "<group>"; };
+		1C924642200EEFD20049C9D3 /* YXTabScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXTabScrollView.h; sourceTree = "<group>"; };
+		1C924643200EEFD20049C9D3 /* YXTabScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXTabScrollView.m; sourceTree = "<group>"; };
+		1C924645200EF3720049C9D3 /* YXTabScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXTabScrollViewController.h; sourceTree = "<group>"; };
+		1C924646200EF3720049C9D3 /* YXTabScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXTabScrollViewController.m; sourceTree = "<group>"; };
+		1C924648200EFA1C0049C9D3 /* TempSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempSegmentView.h; sourceTree = "<group>"; };
+		1C924649200EFA1C0049C9D3 /* TempSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempSegmentView.m; sourceTree = "<group>"; };
+		1C92464B200EFAFE0049C9D3 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1C92464C200EFAFE0049C9D3 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1C92464F200F17160049C9D3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1C924650200F17160049C9D3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1C924652200F17210049C9D3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1C924653200F17210049C9D3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1C924655200F172D0049C9D3 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1C924656200F172D0049C9D3 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +93,19 @@
 		1C1327842007334F001C77F2 /* iOSTools */ = {
 			isa = PBXGroup;
 			children = (
+				1C924641200EEF900049C9D3 /* YXSegmentView */,
+				1C92463D200EE6390049C9D3 /* YXTableView */,
+				1C13279D2007339A001C77F2 /* tools */,
 				1C1327852007334F001C77F2 /* AppDelegate.h */,
 				1C1327862007334F001C77F2 /* AppDelegate.m */,
 				1C1327882007334F001C77F2 /* ViewController.h */,
 				1C1327892007334F001C77F2 /* ViewController.m */,
+				1C92464B200EFAFE0049C9D3 /* MainViewController.h */,
+				1C92464C200EFAFE0049C9D3 /* MainViewController.m */,
+				1C92464E200EFEAC0049C9D3 /* ThreeVC */,
+				1C1327A120073417001C77F2 /* EffectView.h */,
+				1C1327A220073417001C77F2 /* EffectView.m */,
+				1C1327A420073428001C77F2 /* EffectView.xib */,
 				1C13278B20073350001C77F2 /* Main.storyboard */,
 				1C13278E20073350001C77F2 /* Assets.xcassets */,
 				1C13279020073350001C77F2 /* LaunchScreen.storyboard */,
@@ -69,6 +113,52 @@
 				1C13279420073350001C77F2 /* main.m */,
 			);
 			path = iOSTools;
+			sourceTree = "<group>";
+		};
+		1C13279D2007339A001C77F2 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				1C13279F200733C4001C77F2 /* UIView+JFCornerRadius.h */,
+				1C13279E200733C3001C77F2 /* UIView+JFCornerRadius.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		1C92463D200EE6390049C9D3 /* YXTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1C92463A200EE61A0049C9D3 /* YXMainTableViewController.h */,
+				1C92463B200EE61A0049C9D3 /* YXMainTableViewController.m */,
+				1C92463E200EE6740049C9D3 /* YXTableView.h */,
+				1C92463F200EE6740049C9D3 /* YXTableView.m */,
+				1C924648200EFA1C0049C9D3 /* TempSegmentView.h */,
+				1C924649200EFA1C0049C9D3 /* TempSegmentView.m */,
+			);
+			path = YXTableView;
+			sourceTree = "<group>";
+		};
+		1C924641200EEF900049C9D3 /* YXSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				1C924642200EEFD20049C9D3 /* YXTabScrollView.h */,
+				1C924643200EEFD20049C9D3 /* YXTabScrollView.m */,
+				1C924645200EF3720049C9D3 /* YXTabScrollViewController.h */,
+				1C924646200EF3720049C9D3 /* YXTabScrollViewController.m */,
+			);
+			path = YXSegmentView;
+			sourceTree = "<group>";
+		};
+		1C92464E200EFEAC0049C9D3 /* ThreeVC */ = {
+			isa = PBXGroup;
+			children = (
+				1C92464F200F17160049C9D3 /* FirstViewController.h */,
+				1C924650200F17160049C9D3 /* FirstViewController.m */,
+				1C924652200F17210049C9D3 /* SecondViewController.h */,
+				1C924653200F17210049C9D3 /* SecondViewController.m */,
+				1C924655200F172D0049C9D3 /* ThirdViewController.h */,
+				1C924656200F172D0049C9D3 /* ThirdViewController.m */,
+			);
+			path = ThreeVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +222,7 @@
 				1C13279220073350001C77F2 /* LaunchScreen.storyboard in Resources */,
 				1C13278F20073350001C77F2 /* Assets.xcassets in Resources */,
 				1C13278D20073350001C77F2 /* Main.storyboard in Resources */,
+				1C1327A520073428001C77F2 /* EffectView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +233,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C92464D200EFAFE0049C9D3 /* MainViewController.m in Sources */,
+				1C924654200F17210049C9D3 /* SecondViewController.m in Sources */,
+				1C924640200EE6740049C9D3 /* YXTableView.m in Sources */,
 				1C13278A20073350001C77F2 /* ViewController.m in Sources */,
+				1C1327A320073417001C77F2 /* EffectView.m in Sources */,
+				1C924647200EF3720049C9D3 /* YXTabScrollViewController.m in Sources */,
+				1C924657200F172D0049C9D3 /* ThirdViewController.m in Sources */,
 				1C13279520073350001C77F2 /* main.m in Sources */,
 				1C1327872007334F001C77F2 /* AppDelegate.m in Sources */,
+				1C924651200F17160049C9D3 /* FirstViewController.m in Sources */,
+				1C92464A200EFA1C0049C9D3 /* TempSegmentView.m in Sources */,
+				1C1327A0200733C4001C77F2 /* UIView+JFCornerRadius.m in Sources */,
+				1C924644200EEFD20049C9D3 /* YXTabScrollView.m in Sources */,
+				1C92463C200EE61A0049C9D3 /* YXMainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PVKRR6747;
 				INFOPLIST_FILE = iOSTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuexiz.iOSTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PVKRR6747;
 				INFOPLIST_FILE = iOSTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuexiz.iOSTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
