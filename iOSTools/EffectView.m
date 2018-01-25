@@ -8,17 +8,34 @@
 
 #import "EffectView.h"
 #import "MainViewController.h"
+#import "HahahaPopView.h"
+#import "YuexizTools.h"
+
+@interface EffectView ()
+@property (nonatomic, strong) HahahaPopView *hahaView;
+@end
 
 @implementation EffectView
 
 - (void)awakeFromNib {
     [super awakeFromNib];
     _tempLabel.text = @"点击control改变数字";
+    
+    _hahaView = [[UINib nibWithNibName:@"HahahaPopView" bundle:[NSBundle mainBundle]] instantiateWithOwner:nil options:nil].firstObject;
+    
+    _hahaView.frame = CGRectMake(0, 0, 375, 200);
+    
+    
 }
 
 - (IBAction)clicked:(id)sender {
     _tempLabel.text = [NSString stringWithFormat:@"%d", arc4random() % 1000];
     [[self getCurrentVC].navigationController pushViewController:[MainViewController new] animated:YES];
+}
+
+- (IBAction)popViewButtonClick:(id)sender {
+    NSLog(@"弹窗弹出");
+    [_hahaView show];
 }
 
 - (UIViewController *)getCurrentVC {

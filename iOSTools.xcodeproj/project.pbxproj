@@ -25,6 +25,12 @@
 		1C924651200F17160049C9D3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C924650200F17160049C9D3 /* FirstViewController.m */; };
 		1C924654200F17210049C9D3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C924653200F17210049C9D3 /* SecondViewController.m */; };
 		1C924657200F172D0049C9D3 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C924656200F172D0049C9D3 /* ThirdViewController.m */; };
+		1CBDDC3B2019AF6200641DCF /* YXPopContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDDC3A2019AF6200641DCF /* YXPopContainerView.m */; };
+		1CBDDC3E2019AF8B00641DCF /* YXPopViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDDC3D2019AF8B00641DCF /* YXPopViewHelper.m */; };
+		1CBDDC412019BAE500641DCF /* UIView+FrameAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDDC402019BAE500641DCF /* UIView+FrameAdditions.m */; };
+		1CBDDC452019D1D700641DCF /* YXPoppingAbstractView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDDC442019D1D700641DCF /* YXPoppingAbstractView.m */; };
+		1CBDDC4A2019D87200641DCF /* HahahaPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBDDC492019D87200641DCF /* HahahaPopView.xib */; };
+		1CBDDC4D2019D88700641DCF /* HahahaPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDDC4C2019D88700641DCF /* HahahaPopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +67,18 @@
 		1C924653200F17210049C9D3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1C924655200F172D0049C9D3 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		1C924656200F172D0049C9D3 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		1CBDDC392019AF6200641DCF /* YXPopContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPopContainerView.h; sourceTree = "<group>"; };
+		1CBDDC3A2019AF6200641DCF /* YXPopContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPopContainerView.m; sourceTree = "<group>"; };
+		1CBDDC3C2019AF8B00641DCF /* YXPopViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPopViewHelper.h; sourceTree = "<group>"; };
+		1CBDDC3D2019AF8B00641DCF /* YXPopViewHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPopViewHelper.m; sourceTree = "<group>"; };
+		1CBDDC3F2019BAE500641DCF /* UIView+FrameAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameAdditions.h"; sourceTree = "<group>"; };
+		1CBDDC402019BAE500641DCF /* UIView+FrameAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameAdditions.m"; sourceTree = "<group>"; };
+		1CBDDC422019BCBB00641DCF /* YuexizTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuexizTools.h; sourceTree = "<group>"; };
+		1CBDDC432019D1D700641DCF /* YXPoppingAbstractView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPoppingAbstractView.h; sourceTree = "<group>"; };
+		1CBDDC442019D1D700641DCF /* YXPoppingAbstractView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPoppingAbstractView.m; sourceTree = "<group>"; };
+		1CBDDC492019D87200641DCF /* HahahaPopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HahahaPopView.xib; sourceTree = "<group>"; };
+		1CBDDC4B2019D88700641DCF /* HahahaPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HahahaPopView.h; sourceTree = "<group>"; };
+		1CBDDC4C2019D88700641DCF /* HahahaPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HahahaPopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +113,7 @@
 			children = (
 				1C924641200EEF900049C9D3 /* YXSegmentView */,
 				1C92463D200EE6390049C9D3 /* YXTableView */,
+				1CBDDC382019AF4300641DCF /* YXPopView */,
 				1C13279D2007339A001C77F2 /* tools */,
 				1C1327852007334F001C77F2 /* AppDelegate.h */,
 				1C1327862007334F001C77F2 /* AppDelegate.m */,
@@ -102,6 +121,9 @@
 				1C1327892007334F001C77F2 /* ViewController.m */,
 				1C92464B200EFAFE0049C9D3 /* MainViewController.h */,
 				1C92464C200EFAFE0049C9D3 /* MainViewController.m */,
+				1CBDDC4B2019D88700641DCF /* HahahaPopView.h */,
+				1CBDDC4C2019D88700641DCF /* HahahaPopView.m */,
+				1CBDDC492019D87200641DCF /* HahahaPopView.xib */,
 				1C92464E200EFEAC0049C9D3 /* ThreeVC */,
 				1C1327A120073417001C77F2 /* EffectView.h */,
 				1C1327A220073417001C77F2 /* EffectView.m */,
@@ -118,8 +140,11 @@
 		1C13279D2007339A001C77F2 /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				1CBDDC422019BCBB00641DCF /* YuexizTools.h */,
 				1C13279F200733C4001C77F2 /* UIView+JFCornerRadius.h */,
 				1C13279E200733C3001C77F2 /* UIView+JFCornerRadius.m */,
+				1CBDDC3F2019BAE500641DCF /* UIView+FrameAdditions.h */,
+				1CBDDC402019BAE500641DCF /* UIView+FrameAdditions.m */,
 			);
 			path = tools;
 			sourceTree = "<group>";
@@ -159,6 +184,19 @@
 				1C924656200F172D0049C9D3 /* ThirdViewController.m */,
 			);
 			path = ThreeVC;
+			sourceTree = "<group>";
+		};
+		1CBDDC382019AF4300641DCF /* YXPopView */ = {
+			isa = PBXGroup;
+			children = (
+				1CBDDC392019AF6200641DCF /* YXPopContainerView.h */,
+				1CBDDC3A2019AF6200641DCF /* YXPopContainerView.m */,
+				1CBDDC432019D1D700641DCF /* YXPoppingAbstractView.h */,
+				1CBDDC442019D1D700641DCF /* YXPoppingAbstractView.m */,
+				1CBDDC3C2019AF8B00641DCF /* YXPopViewHelper.h */,
+				1CBDDC3D2019AF8B00641DCF /* YXPopViewHelper.m */,
+			);
+			path = YXPopView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +260,7 @@
 				1C13279220073350001C77F2 /* LaunchScreen.storyboard in Resources */,
 				1C13278F20073350001C77F2 /* Assets.xcassets in Resources */,
 				1C13278D20073350001C77F2 /* Main.storyboard in Resources */,
+				1CBDDC4A2019D87200641DCF /* HahahaPopView.xib in Resources */,
 				1C1327A520073428001C77F2 /* EffectView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,11 +279,16 @@
 				1C1327A320073417001C77F2 /* EffectView.m in Sources */,
 				1C924647200EF3720049C9D3 /* YXTabScrollViewController.m in Sources */,
 				1C924657200F172D0049C9D3 /* ThirdViewController.m in Sources */,
+				1CBDDC3E2019AF8B00641DCF /* YXPopViewHelper.m in Sources */,
 				1C13279520073350001C77F2 /* main.m in Sources */,
+				1CBDDC452019D1D700641DCF /* YXPoppingAbstractView.m in Sources */,
+				1CBDDC412019BAE500641DCF /* UIView+FrameAdditions.m in Sources */,
 				1C1327872007334F001C77F2 /* AppDelegate.m in Sources */,
 				1C924651200F17160049C9D3 /* FirstViewController.m in Sources */,
 				1C92464A200EFA1C0049C9D3 /* TempSegmentView.m in Sources */,
+				1CBDDC3B2019AF6200641DCF /* YXPopContainerView.m in Sources */,
 				1C1327A0200733C4001C77F2 /* UIView+JFCornerRadius.m in Sources */,
+				1CBDDC4D2019D88700641DCF /* HahahaPopView.m in Sources */,
 				1C924644200EEFD20049C9D3 /* YXTabScrollView.m in Sources */,
 				1C92463C200EE61A0049C9D3 /* YXMainTableViewController.m in Sources */,
 			);

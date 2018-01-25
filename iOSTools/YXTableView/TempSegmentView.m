@@ -3,7 +3,7 @@
 //  iOSTools
 //
 //  Created by Yuexiz on 2018/1/17.
-//  Copyright © 2018年 张跃曦. All rights reserved.
+//  Copyright © 2018年 Yuexiz. All rights reserved.
 //
 
 #import "TempSegmentView.h"

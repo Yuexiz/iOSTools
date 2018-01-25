@@ -1,13 +1,13 @@
 //
-//  YXTableVIew.h
+//  YXPopContainerView.h
 //  iOSTools
 //
-//  Created by Yuexiz on 2018/1/17.
+//  Created by Yuexiz on 2018/1/25.
 //  Copyright © 2018年 Yuexiz. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface YXTableView : UITableView
+@interface YXPopContainerView : UIView
 
 @end
