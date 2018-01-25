@@ -8,7 +8,6 @@
 
 #import "YXPoppingAbstractView.h"
 
-
 @interface YXPoppingAbstractView ()
 
 @property (nonatomic, strong) YXPopViewHelper *popViewHelper;

@@ -80,7 +80,6 @@ static CGFloat const headViewHeight = 256;
         }
     }
     
-
     if(yOffset < -headViewHeight) {
         
         CGRect f = self.headImageView.frame;
@@ -127,7 +126,7 @@ static CGFloat const headViewHeight = 256;
     return _mainTableView;
 }
 
-#pragma marl -tableDelegate
+#pragma marl - tableDelegate
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }

@@ -10,5 +10,4 @@
 
 @interface HahahaPopView : YXPoppingAbstractView
 
-
 @end

@@ -25,7 +25,6 @@
     
     _hahaView.frame = CGRectMake(0, 0, 375, 200);
     
-    
 }
 
 - (IBAction)clicked:(id)sender {

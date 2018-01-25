@@ -77,7 +77,6 @@ typedef void(^HideCompletionAction)(BOOL);
         wself.targetView.alpha = 1;
     };
     
-    // 这个到底是啥。。。。
     self.showCompletionAction = ^(BOOL bValue){
         wself.isAnimating = NO;
         
@@ -187,7 +186,6 @@ typedef void(^HideCompletionAction)(BOOL);
         self.showCompletionAction(YES);
         
     }
-    
 }
 
 - (void)hidePoppingViewWithAnimated:(BOOL)animated {
