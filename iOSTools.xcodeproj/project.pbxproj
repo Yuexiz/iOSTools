@@ -31,6 +31,7 @@
 		1CBDDC452019D1D700641DCF /* YXPoppingAbstractView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDDC442019D1D700641DCF /* YXPoppingAbstractView.m */; };
 		1CBDDC4A2019D87200641DCF /* HahahaPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBDDC492019D87200641DCF /* HahahaPopView.xib */; };
 		1CBDDC4D2019D88700641DCF /* HahahaPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDDC4C2019D88700641DCF /* HahahaPopView.m */; };
+		1CBDDC50201AC77500641DCF /* YXPopViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDDC4F201AC77500641DCF /* YXPopViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,8 @@
 		1CBDDC492019D87200641DCF /* HahahaPopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HahahaPopView.xib; sourceTree = "<group>"; };
 		1CBDDC4B2019D88700641DCF /* HahahaPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HahahaPopView.h; sourceTree = "<group>"; };
 		1CBDDC4C2019D88700641DCF /* HahahaPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HahahaPopView.m; sourceTree = "<group>"; };
+		1CBDDC4E201AC77500641DCF /* YXPopViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPopViewManager.h; sourceTree = "<group>"; };
+		1CBDDC4F201AC77500641DCF /* YXPopViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPopViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +198,8 @@
 				1CBDDC442019D1D700641DCF /* YXPoppingAbstractView.m */,
 				1CBDDC3C2019AF8B00641DCF /* YXPopViewHelper.h */,
 				1CBDDC3D2019AF8B00641DCF /* YXPopViewHelper.m */,
+				1CBDDC4E201AC77500641DCF /* YXPopViewManager.h */,
+				1CBDDC4F201AC77500641DCF /* YXPopViewManager.m */,
 			);
 			path = YXPopView;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 				1C13279520073350001C77F2 /* main.m in Sources */,
 				1CBDDC452019D1D700641DCF /* YXPoppingAbstractView.m in Sources */,
 				1CBDDC412019BAE500641DCF /* UIView+FrameAdditions.m in Sources */,
+				1CBDDC50201AC77500641DCF /* YXPopViewManager.m in Sources */,
 				1C1327872007334F001C77F2 /* AppDelegate.m in Sources */,
 				1C924651200F17160049C9D3 /* FirstViewController.m in Sources */,
 				1C92464A200EFA1C0049C9D3 /* TempSegmentView.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "YXPopViewHelper.h"
+#import "YXPopViewManager.h"
 #import "YuexizTools.h"
 
 typedef NS_ENUM (NSInteger, AnimationTarget) { // 阴影状态
@@ -52,13 +53,19 @@ typedef void(^HideCompletionAction)(BOOL);
         self.maskStatus = maskStatus;
         self.superView = superView ?: [UIApplication sharedApplication].keyWindow;
         self.animationTarget = Unset;
-        self.showAnimateSpeed = 1500;
+        self.showAnimateSpeed = 1500; // 这里外面赋值有点小问题，我需要考虑下。OC语言好烦
         self.hideAnimateSpeed = 1500;
         _maskStatus = Normal;
         _showOrigin = CGPointZero;
         
         [self setMaskViewWithStatus:maskStatus];
+        
         [self setupPopFunc];
+        
+        targetView.hidden = YES;
+        if (superView == nil) {
+            [[YXPopViewManager shared] addWithPopViewHelper:self];
+        }
     }
     
     return self;
