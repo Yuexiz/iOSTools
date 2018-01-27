@@ -13,7 +13,7 @@
 		1C13278F20073350001C77F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C13278E20073350001C77F2 /* Assets.xcassets */; };
 		1C13279220073350001C77F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C13279020073350001C77F2 /* LaunchScreen.storyboard */; };
 		1C13279520073350001C77F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13279420073350001C77F2 /* main.m */; };
-		1C1327A0200733C4001C77F2 /* UIView+JFCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13279E200733C3001C77F2 /* UIView+JFCornerRadius.m */; };
+		1C1327A0200733C4001C77F2 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13279E200733C3001C77F2 /* UIView+CornerRadius.m */; };
 		1C1327A320073417001C77F2 /* EffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1327A220073417001C77F2 /* EffectView.m */; };
 		1C1327A520073428001C77F2 /* EffectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1327A420073428001C77F2 /* EffectView.xib */; };
 		1C92463C200EE61A0049C9D3 /* YXMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C92463B200EE61A0049C9D3 /* YXMainTableViewController.m */; };
@@ -32,6 +32,9 @@
 		1CBDDC4A2019D87200641DCF /* HahahaPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBDDC492019D87200641DCF /* HahahaPopView.xib */; };
 		1CBDDC4D2019D88700641DCF /* HahahaPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDDC4C2019D88700641DCF /* HahahaPopView.m */; };
 		1CBDDC50201AC77500641DCF /* YXPopViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDDC4F201AC77500641DCF /* YXPopViewManager.m */; };
+		1CE76AB9201C753100681E10 /* UILabel+NormalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE76AB5201C753000681E10 /* UILabel+NormalLabel.m */; };
+		1CE76ABA201C753100681E10 /* UIView+ViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE76AB7201C753100681E10 /* UIView+ViewTool.m */; };
+		1CE76ABD201C768B00681E10 /* UIColor+StringColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE76ABC201C768B00681E10 /* UIColor+StringColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,8 +48,8 @@
 		1C13279120073350001C77F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C13279320073350001C77F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C13279420073350001C77F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1C13279E200733C3001C77F2 /* UIView+JFCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JFCornerRadius.m"; sourceTree = "<group>"; };
-		1C13279F200733C4001C77F2 /* UIView+JFCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JFCornerRadius.h"; sourceTree = "<group>"; };
+		1C13279E200733C3001C77F2 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		1C13279F200733C4001C77F2 /* UIView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
 		1C1327A120073417001C77F2 /* EffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectView.h; sourceTree = "<group>"; };
 		1C1327A220073417001C77F2 /* EffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectView.m; sourceTree = "<group>"; };
 		1C1327A420073428001C77F2 /* EffectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EffectView.xib; sourceTree = "<group>"; };
@@ -82,6 +85,12 @@
 		1CBDDC4C2019D88700641DCF /* HahahaPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HahahaPopView.m; sourceTree = "<group>"; };
 		1CBDDC4E201AC77500641DCF /* YXPopViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPopViewManager.h; sourceTree = "<group>"; };
 		1CBDDC4F201AC77500641DCF /* YXPopViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPopViewManager.m; sourceTree = "<group>"; };
+		1CE76AB5201C753000681E10 /* UILabel+NormalLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NormalLabel.m"; sourceTree = "<group>"; };
+		1CE76AB6201C753100681E10 /* UIView+ViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewTool.h"; sourceTree = "<group>"; };
+		1CE76AB7201C753100681E10 /* UIView+ViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewTool.m"; sourceTree = "<group>"; };
+		1CE76AB8201C753100681E10 /* UILabel+NormalLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NormalLabel.h"; sourceTree = "<group>"; };
+		1CE76ABB201C768B00681E10 /* UIColor+StringColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+StringColor.h"; sourceTree = "<group>"; };
+		1CE76ABC201C768B00681E10 /* UIColor+StringColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+StringColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,10 +153,16 @@
 			isa = PBXGroup;
 			children = (
 				1CBDDC422019BCBB00641DCF /* YuexizTools.h */,
-				1C13279F200733C4001C77F2 /* UIView+JFCornerRadius.h */,
-				1C13279E200733C3001C77F2 /* UIView+JFCornerRadius.m */,
+				1CE76AB8201C753100681E10 /* UILabel+NormalLabel.h */,
+				1CE76AB5201C753000681E10 /* UILabel+NormalLabel.m */,
+				1CE76AB6201C753100681E10 /* UIView+ViewTool.h */,
+				1CE76AB7201C753100681E10 /* UIView+ViewTool.m */,
+				1C13279F200733C4001C77F2 /* UIView+CornerRadius.h */,
+				1C13279E200733C3001C77F2 /* UIView+CornerRadius.m */,
 				1CBDDC3F2019BAE500641DCF /* UIView+FrameAdditions.h */,
 				1CBDDC402019BAE500641DCF /* UIView+FrameAdditions.m */,
+				1CE76ABB201C768B00681E10 /* UIColor+StringColor.h */,
+				1CE76ABC201C768B00681E10 /* UIColor+StringColor.m */,
 			);
 			path = tools;
 			sourceTree = "<group>";
@@ -284,17 +299,20 @@
 				1C1327A320073417001C77F2 /* EffectView.m in Sources */,
 				1C924647200EF3720049C9D3 /* YXTabScrollViewController.m in Sources */,
 				1C924657200F172D0049C9D3 /* ThirdViewController.m in Sources */,
+				1CE76ABA201C753100681E10 /* UIView+ViewTool.m in Sources */,
 				1CBDDC3E2019AF8B00641DCF /* YXPopViewHelper.m in Sources */,
 				1C13279520073350001C77F2 /* main.m in Sources */,
 				1CBDDC452019D1D700641DCF /* YXPoppingAbstractView.m in Sources */,
+				1CE76AB9201C753100681E10 /* UILabel+NormalLabel.m in Sources */,
 				1CBDDC412019BAE500641DCF /* UIView+FrameAdditions.m in Sources */,
 				1CBDDC50201AC77500641DCF /* YXPopViewManager.m in Sources */,
 				1C1327872007334F001C77F2 /* AppDelegate.m in Sources */,
 				1C924651200F17160049C9D3 /* FirstViewController.m in Sources */,
 				1C92464A200EFA1C0049C9D3 /* TempSegmentView.m in Sources */,
 				1CBDDC3B2019AF6200641DCF /* YXPopContainerView.m in Sources */,
-				1C1327A0200733C4001C77F2 /* UIView+JFCornerRadius.m in Sources */,
+				1C1327A0200733C4001C77F2 /* UIView+CornerRadius.m in Sources */,
 				1CBDDC4D2019D88700641DCF /* HahahaPopView.m in Sources */,
+				1CE76ABD201C768B00681E10 /* UIColor+StringColor.m in Sources */,
 				1C924644200EEFD20049C9D3 /* YXTabScrollView.m in Sources */,
 				1C92463C200EE61A0049C9D3 /* YXMainTableViewController.m in Sources */,
 			);

@@ -1,15 +1,15 @@
 //
-//  UIView+JFCornerRadius.m
+//  UIView+CornerRadius.m
 //  JiuFuWallet
 //
 //  Created by Yuexiz on 2018/1/11.
 //  Copyright © 2018年 Yuexiz. All rights reserved.
 //
 
-#import "UIView+JFCornerRadius.h"
+#import "UIView+CornerRadius.h"
 
 IB_DESIGNABLE
-@implementation UIView (JFCornerRadius)
+@implementation UIView (CornerRadius)
 
 - (void)setXib_borderColor:(UIColor *)borderColor {
     self.layer.borderColor = borderColor.CGColor;

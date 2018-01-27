@@ -1,5 +1,5 @@
 //
-//  UIView+JFCornerRadius.h
+//  UIView+CornerRadius.h
 //  JiuFuWallet
 //
 //  Created by Yuexiz on 2018/1/11.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 IB_DESIGNABLE
-@interface UIView (JFCornerRadius)
+@interface UIView (CornerRadius)
 
 @property (nonatomic, strong) IBInspectable UIColor *xib_borderColor;
 @property (nonatomic, assign) IBInspectable CGFloat xib_borderWidth;

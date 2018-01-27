@@ -9,6 +9,10 @@
 #import "YXPopContainerView.h"
 #import "YXPopViewHelper.h"
 
+/*
+ 弹窗继承该View
+ */
+
 @interface YXPoppingAbstractView : YXPopContainerView
 
 - (void)initPopViewHelperWithSize:(CGSize)size maskStatus:(MaskStatus)maskStatus;

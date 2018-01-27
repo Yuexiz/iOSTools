@@ -3,12 +3,15 @@
 //  iOSTools
 //
 //  Created by Yuexiz on 2018/1/26.
-//  Copyright © 2018年 张跃曦. All rights reserved.
+//  Copyright © 2018年 Yuexiz. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "YXPopViewHelper.h"
 
+/*
+ 管理类 单例 
+ */
 @interface YXPopViewManager : NSObject
 
 + (instancetype)shared;
