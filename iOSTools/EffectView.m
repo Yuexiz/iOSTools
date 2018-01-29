@@ -10,6 +10,7 @@
 #import "MainViewController.h"
 #import "HahahaPopView.h"
 #import "YuexizTools.h"
+#import "YXValidationCodeView.h"
 
 @interface EffectView ()
 @property (nonatomic, strong) HahahaPopView *hahaView;
@@ -24,6 +25,10 @@
     _hahaView = [[UINib nibWithNibName:@"HahahaPopView" bundle:[NSBundle mainBundle]] instantiateWithOwner:nil options:nil].firstObject;
     
     _hahaView.frame = CGRectMake(0, 0, 375, 200);
+    
+    YXValidationCodeView *a = [[YXValidationCodeView alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 50) labelCount:6 stringDisplay:NO];
+    
+    [self addSubview:a];
     
 }
 

@@ -1,9 +1,9 @@
 //
 //  UIView+ViewTool.h
-//  JiuFuWallet
+//  iOSTools
 //
 //  Created by Yuexiz on 2018/1/23.
-//  Copyright © 2018年 jiufu. All rights reserved.
+//  Copyright © 2018年 Yuexiz. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

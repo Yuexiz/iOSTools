@@ -7,3 +7,4 @@
 //
 
 #import "UIView+FrameAdditions.h"
+#import "UIColor+StringColor.h"

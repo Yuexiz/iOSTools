@@ -35,6 +35,7 @@
 		1CE76AB9201C753100681E10 /* UILabel+NormalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE76AB5201C753000681E10 /* UILabel+NormalLabel.m */; };
 		1CE76ABA201C753100681E10 /* UIView+ViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE76AB7201C753100681E10 /* UIView+ViewTool.m */; };
 		1CE76ABD201C768B00681E10 /* UIColor+StringColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE76ABC201C768B00681E10 /* UIColor+StringColor.m */; };
+		1CE76AC3201F0F0400681E10 /* YXValidationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE76AC2201F0F0400681E10 /* YXValidationCodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,8 @@
 		1CE76AB8201C753100681E10 /* UILabel+NormalLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NormalLabel.h"; sourceTree = "<group>"; };
 		1CE76ABB201C768B00681E10 /* UIColor+StringColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+StringColor.h"; sourceTree = "<group>"; };
 		1CE76ABC201C768B00681E10 /* UIColor+StringColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+StringColor.m"; sourceTree = "<group>"; };
+		1CE76AC1201F0F0400681E10 /* YXValidationCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXValidationCodeView.h; sourceTree = "<group>"; };
+		1CE76AC2201F0F0400681E10 /* YXValidationCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXValidationCodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 				1CBDDC402019BAE500641DCF /* UIView+FrameAdditions.m */,
 				1CE76ABB201C768B00681E10 /* UIColor+StringColor.h */,
 				1CE76ABC201C768B00681E10 /* UIColor+StringColor.m */,
+				1CE76AC1201F0F0400681E10 /* YXValidationCodeView.h */,
+				1CE76AC2201F0F0400681E10 /* YXValidationCodeView.m */,
 			);
 			path = tools;
 			sourceTree = "<group>";
@@ -311,6 +316,7 @@
 				1C92464A200EFA1C0049C9D3 /* TempSegmentView.m in Sources */,
 				1CBDDC3B2019AF6200641DCF /* YXPopContainerView.m in Sources */,
 				1C1327A0200733C4001C77F2 /* UIView+CornerRadius.m in Sources */,
+				1CE76AC3201F0F0400681E10 /* YXValidationCodeView.m in Sources */,
 				1CBDDC4D2019D88700641DCF /* HahahaPopView.m in Sources */,
 				1CE76ABD201C768B00681E10 /* UIColor+StringColor.m in Sources */,
 				1C924644200EEFD20049C9D3 /* YXTabScrollView.m in Sources */,
