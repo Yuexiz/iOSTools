@@ -36,6 +36,7 @@
         self.labelDistance = -0.5;
         self.defaultColor = [UIColor yx_colorFromString:@"B2B4C6"];
         self.changedColor = [UIColor yx_colorFromString:@"B2B4C6"];
+        [self.codeTextField becomeFirstResponder];
         [self setupViews];
     }
     
